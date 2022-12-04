@@ -1,34 +1,36 @@
-body{
-    margin: 0;
+.main{
+    border: 1px solid darkblue;
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+     
 }
-.slide-container{
-    position: relative;
+.style{
+    width: 50px;
+    height: 52px;
+    margin-left: 50px;
 }
-.btn-prev{
-    cursor: pointer;
-    position: absolute;
-    top: 45%;
-    color: black;
-    background-color: white;
-    padding: 8px 20px;
-    margin-left: 10px;
-    border-radius: 50%;
-    font-size: 20px;
-    font-weight: bold;
-
+.result{
+    width: 100%;
+    background-color: gray;
+    color: white;
 }
-.btn-next{
-   right: 10px;
-   position: absolute;
-   top: 45%;
-   color: black;
-    background-color: white;
-    padding: 8px 20px;
-    cursor: pointer;
-    border-radius: 50%;
-    font-size: 20px;
-    font-weight: bold;
+.clearbtn{
+    width: 100%;
+    margin-top: 20px;
+    background-color: gray;
 }
-.slide{
-    display: none;
+.btn{
+    background-color: yellowgreen;
+    width: 50px;
+    margin: 5px;
+    margin-top: 20px;
+    background: linear-gradient(gray);
+    
 }
+.halfbtn{
+    background-color:yellowgreen ;
+    width: 50px ;
+    margin-top: 20px;
+    margin-left: 75px;
+    }
